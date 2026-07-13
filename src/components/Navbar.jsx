@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { FiMoon } from "react-icons/fi";
+import ThemeToggle from "./ThemeToggle";
 
 function Navbar() {
   return (
@@ -29,13 +29,8 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Dark Mode Button */}
-        <button
-          className="text-2xl hover:text-yellow-400 transition"
-          aria-label="Toggle dark mode"
-        >
-          <FiMoon />
-        </button>
+        {/* Dark Mode Toggle */}
+        <ThemeToggle />
 
       </div>
     </nav>

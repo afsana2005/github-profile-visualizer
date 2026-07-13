@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 function Hero() {
   return (
-<section className="bg-gradient-to-b from-gray-900 to-black text-white min-h-[90vh] flex items-center justify-center">
+<section className="bg-gradient-to-b from-gray-900 to-black text-white min-h-[80vh] flex items-center justify-center">
       <div className="max-w-5xl mx-auto px-6 text-center">
 
         {/* GitHub Icon */}
