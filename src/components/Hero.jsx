@@ -23,9 +23,16 @@ function Hero() {
         </p>
 
         {/* Button */}
-        <button className="mt-10 bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg">
-          Search GitHub Profiles
-        </button>
+        <button
+  onClick={() =>
+    document.getElementById("search")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="mt-10 bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg"
+>
+  Search GitHub Profiles
+</button>
 
       </div>
     </section>
