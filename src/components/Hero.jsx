@@ -1,8 +1,9 @@
 import { FaGithub } from "react-icons/fa";
+import SearchBar from "./SearchBar";
 
 function Hero() {
   return (
-    <section className="bg-gradient-to-b from-gray-900 to-black text-white min-h-[90vh] flex items-center justify-center">
+<section className="bg-gradient-to-b from-gray-900 to-black text-white min-h-[90vh] flex items-center justify-center">
       <div className="max-w-5xl mx-auto px-6 text-center">
 
         {/* GitHub Icon */}
@@ -22,17 +23,8 @@ function Hero() {
           GitHub data beautifully.
         </p>
 
-        {/* Button */}
-        <button
-  onClick={() =>
-    document.getElementById("search")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
-  className="mt-10 bg-blue-600 hover:bg-blue-700 transition px-8 py-4 rounded-xl text-lg font-semibold shadow-lg"
->
-  Search GitHub Profiles
-</button>
+          {/* Search Bar */}
+        <SearchBar />
 
       </div>
     </section>
